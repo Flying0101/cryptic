@@ -40,8 +40,7 @@ The API exposes the following endpoints:
 ### POST /api/Crypt/encrypt**
 
 Leave key as it is, put your message in the plainText field.
-Request Body:
-Example Value | Schema
+**Request Body:**
 ```
 {
   "plainText": "Hello World",
@@ -50,14 +49,13 @@ Example Value | Schema
 ```
 
 Here you get the encrypted text with your unique key, save them for decryption.
-Response body:
+**Response body:**
 ```
 {
   "encryptedText": "Spwwz+bz}wo",
   "key": "|S?@Lw^3TT3"
 }
 ```
-
 
 ### POST /api/Crypt/decrypt
 
